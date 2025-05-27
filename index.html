@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Aroma Café</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome (opcional para iconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Header + Navegación ===== -->
+  <header class="bg-brown text-white sticky-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center py-2">
+      <a class="navbar-brand text-white fw-bold fs-3 m-0" href="#">Aroma Café</a>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#productos">Blends</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#reseñas">Opiniones</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <main id="inicio" class="hero-video">
+    <video autoplay muted loop playsinline preload="auto">
+      <source src="imgs/hero.mp4" type="video/mp4">
+      <!-- opcional: <source src="imgs/hero.webm" type="video/webm"> -->
+    </video>
+
+    <div class="overlay text-center text-white d-flex flex-column justify-content-center">
+      <h1 class="display-4 fw-bold">Tu momento de especialidad 🧡</h1>
+      <p class="lead mb-4">Disfrutá el mejor café de origen, todos los días</p>
+      <a href="#productos" class="btn btn-light btn-lg">Ver Blends</a>
+    </div>
+  </main>
+
+  <!-- ===== Productos ===== -->
+  <section id="productos" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Nuestros Blends</h2>
+
+      <div class="d-flex flex-wrap gap-4 justify-content-center">
+        <!-- Card 1 -->
+        <article class="card blend-card">
+          <img src="imgs/blend-1.png" class="card-img-top" alt="Blend Andes">
+          <div class="card-body">
+            <h3 class="card-title">Blend Andes</h3>
+            <p class="card-text mb-2">Notas a cacao y frutos rojos.</p>
+            <span class="price">$5.500 ARS</span>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card blend-card">
+          <img src="imgs/blend-2.png" class="card-img-top" alt="Blend Patagonia">
+          <div class="card-body">
+            <h3 class="card-title">Blend Patagonia</h3>
+            <p class="card-text mb-2">Aromas florales y miel.</p>
+            <span class="price">$5.800 ARS</span>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card blend-card">
+          <img src="imgs/blend-3.png" class="card-img-top" alt="Blend Urbano">
+          <div class="card-body">
+            <h3 class="card-title">Blend Urbano</h3>
+            <p class="card-text mb-2">Intenso, con final achocolatado.</p>
+            <span class="price">$5.200 ARS</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Opiniones ===== -->
+  <section id="reseñas" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Lo que dicen nuestros clientes</h2>
+
+      <div class="reseñas-grid">
+        <blockquote>“El mejor flat white que probé.” — <cite>Ana P.</cite></blockquote>
+        <blockquote>“El aroma te transporta.” — <cite>Luis R.</cite></blockquote>
+        <blockquote>“Servicio impecable.” — <cite>Sofía G.</cite></blockquote>
+        <blockquote>“La frescura de los granos es notable.” — <cite>Marcos D.</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Contáctanos</h2>
+
+      <form action="https://formspree.io/f/xvgajjdj" method="POST" class="contact-form">
+        <input type="text"     name="nombre"   placeholder="Nombre"  class="form-control" required>
+        <input type="email"    name="_replyto" placeholder="Email"   class="form-control" required>
+        <textarea name="mensaje" rows="4"      placeholder="Mensaje" class="form-control" required></textarea>
+
+        <button type="submit" class="btn btn-accent w-100">
+          <i class="fa-solid fa-paper-plane me-2"></i>Enviar
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-brown text-center text-white py-3">
+    <small>&copy; 2025 Aroma Café — Todos los derechos reservados</small>
+  </footer>
+
+  <!-- Bootstrap JS (opcional, solo si usás componentes que lo requieran) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
