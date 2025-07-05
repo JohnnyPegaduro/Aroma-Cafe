@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Blend Andes",
+    "price": 5500,
+    "description": "Notas a cacao y frutos rojos.",
+    "image": "imgs/blend-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Blend Patagonia",
+    "price": 5800,
+    "description": "Aromas florales y miel.",
+    "image": "imgs/blend-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Blend Urbano",
+    "price": 5200,
+    "description": "Intenso, con final achocolatado.",
+    "image": "imgs/blend-3.png"
+  }
+]
