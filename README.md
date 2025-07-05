@@ -74,7 +74,7 @@ Visita \`http://localhost:3000\` (o el puerto indicado) y prueba la tienda.
 
 1. Push a la rama \`main\`.  
 2. Settings → *Pages* → “Deploy from branch” → **\`main / root\`**.  
-3. URL pública: \`https://johnnypegaduro.github.io/Aroma-Cafe/\`.
+3. URL pública: \`https://johnnypegaduro.github.io/Aroma-Cafe/ \`.
 
 ### Netlify
 
