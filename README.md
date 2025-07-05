@@ -104,7 +104,7 @@ Visita \`http://localhost:3000\` (o el puerto indicado) y prueba la tienda.
 - [LinkedIn](https://www.linkedin.com/in/matiasarieldeluca/)  
 - [Portafolio](https://portfolio-matias-deluca.vercel.app/es)  
 
-Proyecto desarrollado como entrega final del curso **Front-End JavaScript** (Goberno de la Ciudad de Buenos Aires).
+Proyecto desarrollado como entrega final del curso **Front-End JavaScript** (Talento Tech - Gobierno de la Ciudad de Buenos Aires).
 
 ---
 
